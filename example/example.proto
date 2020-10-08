@@ -1,0 +1,8 @@
+syntax = "proto3";
+package example;
+
+
+message MySmallMessage {
+	string tiny = 1;
+    // google.protobuf.Struct tiny = 1;
+}
